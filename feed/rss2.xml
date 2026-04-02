@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:g-custom="http://base.google.com/cns/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>d9f824a2</title>
+    <link>http://www.solidkit.co.uk</link>
+    <description />
+    <atom:link href="http://www.solidkit.co.uk/feed/rss2" type="application/rss+xml" rel="self" />
+    <item>
+      <title>CORIAN SAMPLE WALL</title>
+      <link>http://www.solidkit.co.uk/corian-sample-wall</link>
+      <description />
+      <content:encoded>&lt;div data-rss-type="text"&gt;&#xD;
+  &lt;h3&gt;&#xD;
+    &lt;span&gt;&#xD;
+      
+           This is a subtitle for your new post
+          &#xD;
+    &lt;/span&gt;&#xD;
+  &lt;/h3&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div&gt;&#xD;
+  &lt;img src="https://irt-cdn.multiscreensite.com/md/dmtmpl/dms3rep/multi/blog_post_image.png"/&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div data-rss-type="text"&gt;&#xD;
+  &lt;p&gt;&#xD;
+    &lt;span&gt;&#xD;
+      
+           The body content of your post goes here. To edit this text, click on it and delete this default text and start typing your own or paste your own from a different source.
+          &#xD;
+    &lt;/span&gt;&#xD;
+  &lt;/p&gt;&#xD;
+&lt;/div&gt;</content:encoded>
+      <enclosure url="https://irp.cdn-website.com/19ecbe2b/dms3rep/multi/bureau1.jpg" length="38358" type="image/jpeg" />
+      <pubDate>Tue, 28 Nov 2023 08:55:34 GMT</pubDate>
+      <guid>http://www.solidkit.co.uk/corian-sample-wall</guid>
+      <g-custom:tags type="string" />
+      <media:content medium="image" url="https://irp.cdn-website.com/19ecbe2b/dms3rep/multi/bureau1.jpg">
+        <media:description>thumbnail</media:description>
+      </media:content>
+      <media:content medium="image" url="https://irp.cdn-website.com/19ecbe2b/dms3rep/multi/bureau1.jpg">
+        <media:description>main image</media:description>
+      </media:content>
+    </item>
+  </channel>
+</rss>

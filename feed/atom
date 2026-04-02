@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:g-custom="http://base.google.com/cns/1.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <title>d9f824a2</title>
+  <link rel="alternate" href="http://www.solidkit.co.uk" />
+  <subtitle />
+  <entry>
+    <title>CORIAN SAMPLE WALL</title>
+    <link rel="alternate" href="http://www.solidkit.co.uk/corian-sample-wall" />
+    <link rel="enclosure" type="image/jpeg" href="https://irp.cdn-website.com/19ecbe2b/dms3rep/multi/bureau1.jpg" length="38358" />
+    <author>
+      <name />
+    </author>
+    <updated>2023-11-28T08:55:34Z</updated>
+    <published>2023-11-28T08:55:34Z</published>
+    <content>&lt;div data-rss-type="text"&gt;&#xD;
+  &lt;h3&gt;&#xD;
+    &lt;span&gt;&#xD;
+      
+           This is a subtitle for your new post
+          &#xD;
+    &lt;/span&gt;&#xD;
+  &lt;/h3&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div&gt;&#xD;
+  &lt;img src="https://irt-cdn.multiscreensite.com/md/dmtmpl/dms3rep/multi/blog_post_image.png"/&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div data-rss-type="text"&gt;&#xD;
+  &lt;p&gt;&#xD;
+    &lt;span&gt;&#xD;
+      
+           The body content of your post goes here. To edit this text, click on it and delete this default text and start typing your own or paste your own from a different source.
+          &#xD;
+    &lt;/span&gt;&#xD;
+  &lt;/p&gt;&#xD;
+&lt;/div&gt;</content>
+    <summary type="text" />
+    <g-custom:tags type="string" />
+    <media:content medium="image" url="https://irp.cdn-website.com/19ecbe2b/dms3rep/multi/bureau1.jpg">
+      <media:description>thumbnail</media:description>
+    </media:content>
+    <media:content medium="image" url="https://irp.cdn-website.com/19ecbe2b/dms3rep/multi/bureau1.jpg">
+      <media:description>main image</media:description>
+    </media:content>
+  </entry>
+</feed>
