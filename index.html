@@ -585,12 +585,60 @@
 
 
 
+<!------- email script ------->
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.getElementById('1166363653');
+  const successBox = document.getElementById('1438608779');
+  const errorBox = document.getElementById('1922117195');
+  const submitBtn = document.getElementById('1237866677');
 
+  if (!form) return;
 
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
 
+    if (successBox) successBox.style.display = 'none';
+    if (errorBox) errorBox.style.display = 'none';
 
+    const originalText = submitBtn.value;
+    submitBtn.value = 'Sending...';
+    submitBtn.disabled = true;
 
+    try {
+      const formData = new FormData(form);
+
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+      });
+
+      const result = await response.json();
+
+      if (response.ok && result.success) {
+        form.reset();
+        if (successBox) successBox.style.display = 'block';
+      } else {
+        if (errorBox) {
+          errorBox.style.display = 'block';
+          errorBox.innerHTML = (result.message || 'Oops, there was an error sending your message.<br>Please try again later.');
+        }
+      }
+    } catch (err) {
+      if (errorBox) {
+        errorBox.style.display = 'block';
+        errorBox.innerHTML = 'Oops, there was an error sending your message.<br>Please try again later.';
+      }
+    } finally {
+      submitBtn.value = originalText;
+      submitBtn.disabled = false;
+    }
+  });
+});
+</script>
+
+<!------- email script ends ------->
 
 
 <body id="dmRoot" data-page-alias="home"  class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite dmLargeBody "
