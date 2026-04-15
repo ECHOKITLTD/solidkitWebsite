@@ -2769,7 +2769,195 @@
 
 <!-----------------------------------------------------------------  MARKS HACK ---------------------------------------------------------->
 
+<style>
+/* ===== SOLIDKIT simple mobile breakpoint ===== */
 
+@media (max-width: 767px) {
+
+  /* kill desktop width forcing */
+  html, body,
+  #dmRoot, #dm, .dmwr, .dmOuter, .dmInner,
+  .dmLayoutWrapper, #site_content, .dmContent,
+  .dmRespRowsWrapper, .dmRespRow, .dmRespColsWrapper, .dmRespCol {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .dmInner,
+  .dmDesktopBody .dmInner,
+  html:not(.ios-preview) #dm .hasStickyHeader .dmInner div.dmHeaderContainer,
+  #dm .header-over-content .dmHeaderContainer {
+    min-width: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* rows */
+  .dmLargeBody .dmRespRow,
+  .dmRespRow {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .dmRespRow.fullBleedMode,
+  .dmRespRow.fullBleedChanged {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* force all columns to stack */
+  .dmRespColsWrapper,
+  #dm .dmRespRow .dmRespColsWrapper {
+    display: block !important;
+  }
+
+  .dmRespCol,
+  .large-12, .large-6, .large-5, .large-4, .large-3, .large-2,
+  .medium-12, .medium-6, .medium-5, .medium-4, .medium-3, .medium-2,
+  .small-12 {
+    display: block !important;
+    float: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* header */
+  #1160086399,
+  #1473823010,
+  #1081407566 {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  #1067509132 {
+    max-width: 180px !important;
+    margin: 0 auto !important;
+  }
+
+  #1673537046,
+  #1673537046 p {
+    text-align: center !important;
+  }
+
+  /* hero */
+  #1243667655,
+  .u_1243667655 {
+    padding-top: 120px !important;
+    padding-bottom: 90px !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+
+  #1314564036 h1 {
+    font-size: clamp(2rem, 9vw, 3rem) !important;
+    line-height: 1.1 !important;
+  }
+
+  /* gallery sections: single column */
+  #1220776178 .layout-container.square,
+  #1852509179 .layout-container.square,
+  #1220776178 .photogallery-row,
+  #1852509179 .photogallery-row,
+  #1220776178 .photogallery-column,
+  #1852509179 .photogallery-column {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  #1220776178 .photogallery-column,
+  #1852509179 .photogallery-column {
+    margin-bottom: 18px !important;
+  }
+
+  #1220776178 .photoGalleryThumbs,
+  #1852509179 .photoGalleryThumbs,
+  #1220776178 .thumbnailInnerWrapper,
+  #1852509179 .thumbnailInnerWrapper,
+  #1220776178 .image-container,
+  #1852509179 .image-container {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  #1220776178 .image-container a,
+  #1852509179 .image-container a {
+    display: block !important;
+    width: 100% !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+  }
+
+  #1220776178 .image-container a {
+    min-height: 220px !important;
+    padding-top: 70% !important;
+    background-size: cover !important;
+  }
+
+  #1852509179 .image-container a {
+    min-height: 260px !important;
+    padding-top: 135% !important;
+    background-size: contain !important;
+  }
+
+  /* keep the anchor boxes alive */
+  #1220776178 .image-container img,
+  #1852509179 .image-container img {
+    opacity: 0 !important;
+    display: block !important;
+  }
+
+  /* stack split sections */
+  #CaseStudies .dmRespColsWrapper,
+  #Contact .dmRespColsWrapper,
+  #1846841492 .dmRespColsWrapper,
+  #1501976387 .dmRespColsWrapper {
+    display: block !important;
+  }
+
+  #1487823497,
+  #1770129776,
+  #1508420505,
+  #1850839678,
+  #1734969915,
+  #1121225282,
+  #1580080015,
+  #1082767640,
+  #1872201947,
+  #1584335928 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 24px !important;
+    text-align: center !important;
+  }
+
+  /* form */
+  #1215240230 .dmRespDesignCol,
+  #1200268381,
+  #1082708808,
+  #1883523266 {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block !important;
+    float: none !important;
+  }
+
+  /* footer copy */
+  #1415361674,
+  #1339556876,
+  #1609374963 {
+    text-align: center !important;
+  }
+}
+</style>
 
 <!-----------------------------------------------------------------  MARKS HACK ---------------------------------------------------------->
 	
