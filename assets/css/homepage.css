@@ -1,0 +1,146 @@
+/* Local replacement for the retired Duda gallery widget stylesheet. */
+
+#dm .dmBody .u_1220776178 .photogallery-row,
+#dm .dmBody .u_1852509179 .photogallery-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: 100%;
+}
+
+#dm .dmBody .u_1220776178 .photogallery-column,
+#dm .dmBody .u_1852509179 .photogallery-column {
+  min-width: 0;
+  width: auto;
+}
+
+#dm .dmBody .u_1220776178 .photoGalleryThumbs,
+#dm .dmBody .u_1852509179 .photoGalleryThumbs,
+#dm .dmBody .u_1220776178 .thumbnailInnerWrapper,
+#dm .dmBody .u_1852509179 .thumbnailInnerWrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#dm .dmBody .u_1220776178 .image-container,
+#dm .dmBody .u_1852509179 .image-container {
+  display: block;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+#dm .dmBody .u_1220776178 .image-container > a {
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  display: block !important;
+  height: auto !important;
+  padding-top: 140% !important;
+  width: 100% !important;
+}
+
+/* Keep the legacy image-sizing script from requesting variants that no longer
+   exist on the retired CDN. */
+#dm .dmBody .u_1220776178 .u_1760499884 {
+  background-image: url("../content/lirp.cdn-website.com/19ecbe2b/dms3rep/multi/opt/komo-1920w.jpg") !important;
+}
+
+#dm .dmBody .u_1220776178 .u_1171043308 {
+  background-image: url("../content/lirp.cdn-website.com/19ecbe2b/dms3rep/multi/opt/mesh-1920w.jpg") !important;
+}
+
+#dm .dmBody .u_1220776178 .u_1530977050 {
+  background-image: url("../content/lirp.cdn-website.com/19ecbe2b/dms3rep/multi/opt/countr-1920w.jpg") !important;
+}
+
+#dm .dmBody .u_1220776178 .u_1898836771 {
+  background-image: url("../content/lirp.cdn-website.com/19ecbe2b/dms3rep/multi/opt/fone-1920w.jpg") !important;
+}
+
+#dm .dmBody .u_1220776178 .u_1127064795 {
+  background-image: url("../content/lirp.cdn-website.com/19ecbe2b/dms3rep/multi/opt/frame-1920w.jpg") !important;
+}
+
+#dm .dmBody .u_1220776178 .u_1713004237 {
+  background-image: url("../content/lirp.cdn-website.com/19ecbe2b/dms3rep/multi/opt/screen-1920w.jpg") !important;
+}
+
+#dm .dmBody .u_1220776178 .caption-container {
+  bottom: 10px;
+  display: block !important;
+  left: 10px;
+  pointer-events: none;
+  position: absolute;
+  right: 10px;
+  width: auto;
+}
+
+#dm .dmBody .u_1220776178 .caption-container .caption-inner {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.88);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  min-height: 108px;
+  padding: 18px 12px;
+  text-align: center;
+}
+
+#dm .dmBody .u_1220776178 .caption-title,
+#dm .dmBody .u_1220776178 .caption-text {
+  display: block;
+  margin: 0 !important;
+  width: 100%;
+}
+
+#dm .dmBody .u_1852509179 .photoGalleryThumbs {
+  padding: 10px !important;
+}
+
+#dm .dmBody .u_1852509179 .image-container > a {
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  display: block !important;
+  height: auto !important;
+  padding-top: 100% !important;
+  width: 100% !important;
+}
+
+#dm .dmBody .u_1852509179 .u_1932489255 {
+  background-image: url("../content/lirp.cdn-website.com/19ecbe2b/dms3rep/multi/opt/br2-1920w.png") !important;
+}
+
+#dm .dmBody .u_1852509179 .u_1870297641 {
+  background-image: url("../content/lirp.cdn-website.com/19ecbe2b/dms3rep/multi/opt/br1-1920w.png") !important;
+}
+
+#dm .dmBody .u_1852509179 .u_1350859285 {
+  background-image: url("../content/lirp.cdn-website.com/19ecbe2b/dms3rep/multi/opt/br6-1920w.png") !important;
+}
+
+#dm .dmBody .u_1852509179 .u_1579053124 {
+  background-image: url("../content/lirp.cdn-website.com/19ecbe2b/dms3rep/multi/opt/br5-1920w.png") !important;
+}
+
+#dm .dmBody .u_1852509179 .u_1708550393 {
+  background-image: url("../content/lirp.cdn-website.com/19ecbe2b/dms3rep/multi/opt/br4-1920w.png") !important;
+}
+
+#dm .dmBody .u_1852509179 .u_1593060359 {
+  background-image: url("../content/lirp.cdn-website.com/19ecbe2b/dms3rep/multi/opt/br39-1920w.png") !important;
+}
+
+@media (max-width: 767px) {
+  #dm .dmBody .u_1220776178 .photogallery-row,
+  #dm .dmBody .u_1852509179 .photogallery-row {
+    grid-template-columns: 1fr;
+  }
+
+  #dm .dmBody .u_1220776178 .image-container > a {
+    padding-top: 100% !important;
+  }
+}
